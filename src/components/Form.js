@@ -6,7 +6,7 @@ class Form extends Component {
     constructor(){
         super();
         this.onChange = this.onChange.bind(this);
-        this.onSubmit = this.onChange.bind(this);
+        this.onSubmit = this.onSubmit.bind(this);
     }
 
     state = {
@@ -28,7 +28,11 @@ class Form extends Component {
         ...this.state
         }
       );
-    }
+      this.setState({
+        name: '',
+        phone: '',
+      });
+    };
 
   render() {
     return (
