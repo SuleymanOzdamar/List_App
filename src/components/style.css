@@ -1,6 +1,6 @@
 .listArea {
   width: 500px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .listArea input {
   margin-top: 10px;
@@ -8,6 +8,7 @@
   line-height: 25px;
   text-indent: 10px;
   width: 98%;
+  background-color: chartreuse;
 }
 .listArea .list {
   margin: 0;
@@ -23,8 +24,12 @@
   justify-content: space-between;
 }
 
-.form input {
+.form {
   width: 500px;
   margin: 0 auto;
-  margin: 5px;
+}
+.form input {
+  width: 98%;
+  margin: 7px 0;
+  background-color: chartreuse;
 }/*# sourceMappingURL=style.css.map */

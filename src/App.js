@@ -6,12 +6,20 @@ class App extends Component {
   state={
     contacts:[
       {
-        name :' Öznur',
+        name :'Öznur',
         phone:'0555 555 55 55'
       },
       {
-        name :' Süleyman',
-        phone:'0555 222 22 22'
+        name :'Süleyman',
+        phone:'0555 221 22 22'
+      },
+      {
+        name :'Ali',
+        phone:'0554 252 22 22'
+      },
+      {
+        name :'Veli',
+        phone:'0553 232 22 22'
       }
   ]
   }
