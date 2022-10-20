@@ -1,0 +1,24 @@
+.listArea {
+    width: 500px;
+    margin: 0 auto;
+    input {
+        margin-top: 10px;
+        height: 25px;
+        line-height: 25px;
+        text-indent: 10px;
+        width: 98%;
+    }
+    .list {
+        margin: 0;
+        padding: 0;
+        li {
+            list-style-type: none;
+            text-align: left;
+            background-color: rgb(142, 82, 199);
+            color: wheat;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
